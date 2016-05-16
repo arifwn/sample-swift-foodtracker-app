@@ -13,6 +13,7 @@
 		8021B4341CEA069000338BD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8021B4331CEA069000338BD2 /* Assets.xcassets */; };
 		8021B4371CEA069000338BD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8021B4351CEA069000338BD2 /* LaunchScreen.storyboard */; };
 		8021B4421CEA069000338BD2 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8021B4411CEA069000338BD2 /* FoodTrackerTests.swift */; };
+		8021B44D1CEA1E6400338BD2 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8021B44C1CEA1E6400338BD2 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		8021B43D1CEA069000338BD2 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8021B4411CEA069000338BD2 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		8021B4431CEA069000338BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8021B44C1CEA1E6400338BD2 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				8021B4331CEA069000338BD2 /* Assets.xcassets */,
 				8021B4351CEA069000338BD2 /* LaunchScreen.storyboard */,
 				8021B4381CEA069000338BD2 /* Info.plist */,
+				8021B44C1CEA1E6400338BD2 /* RatingControl.swift */,
 			);
 			path = FoodTracker;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8021B42F1CEA069000338BD2 /* ViewController.swift in Sources */,
+				8021B44D1CEA1E6400338BD2 /* RatingControl.swift in Sources */,
 				8021B42D1CEA069000338BD2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
