@@ -32,7 +32,7 @@
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <view userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GMG-Lz-OvW" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
+                                        <view userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="44" translatesAutoresizingMaskIntoConstraints="NO" id="GMG-Lz-OvW" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
                                             <rect key="frame" x="92" y="37" width="240" height="44"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </view>
@@ -42,6 +42,7 @@
                                     <outlet property="nameLabel" destination="qlX-OU-kh6" id="kus-GH-Qc1"/>
                                     <outlet property="photoImageView" destination="9AP-rS-EZc" id="BtR-hR-whh"/>
                                     <outlet property="ratingControl" destination="GMG-Lz-OvW" id="0fo-rJ-4Ku"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ShowDetail" id="Rm4-Ld-iRU"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -173,10 +174,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vjH-Vl-zn7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1057" y="322"/>
+            <point key="canvasLocation" x="1105" y="669"/>
         </scene>
     </scenes>
     <resources>
         <image name="defaultPhoto" width="540" height="540"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Rm4-Ld-iRU"/>
+    </inferredMetricsTieBreakers>
 </document>
